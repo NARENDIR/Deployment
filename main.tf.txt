@@ -1,0 +1,14 @@
+// Define your AWS provider
+provider "aws" {
+  region = "your-region"
+}
+
+// Define VPC, subnets, security groups, etc.
+resource "aws_vpc" "main" {
+  // Define VPC configuration
+}
+
+// Define EC2 instances
+resource "aws_instance" "web_servers" {
+  // Define EC2 instance configuration
+}
